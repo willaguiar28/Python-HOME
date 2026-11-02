@@ -1,0 +1,31 @@
+# Ambientes Virtuais (venv, virtualenv, etc)
+.venv/
+venv/
+env/
+ENV/
+
+# Arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Pastas de distribuição e empacotamento
+build/
+dist/
+*.egg-info/
+
+# Variáveis de ambiente e segredos (IMPORTANTE!)
+.env
+.env.*
+
+# Configurações do VS Code (opcional, mas recomendado)
+.vscode/
+
+# Arquivos de cache de testes e ferramentas
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Banco de dados local (se houver)
+*.sqlite3
